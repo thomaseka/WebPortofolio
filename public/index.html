@@ -1,78 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Web Portofolio Tailwind CSS" />
-    <meta name="keyword" content="tailwindcss, CSS, tailwind" />
-    <meta name="author" content="Thomas Eka Swastika Putra Tibo" />
-    <title>Web Portofolio</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <nav class="w-screen p-6 justify-between">
-      <section class="flex flex-wrap">
-        <div class="text-2xl mx-12 py-2 font-bold text-blue-900">
-          <!-- <div class="flex flex-shrink-0 mr-6">
-                      <img src="img/logo.png" class="h-10 w-50 mr-2" />
-                    </div> //solusi jika menggunakan logo pada bagian ini-->
-          <a href="#">Tomm</a>
-        </div>
-        <ul
-          class="flex items-center w-full flex-grow lg:flex lg:items-center lg:w-auto"
-        >
-          <li class="block mt-4 lg:inline-block lg:mt-0">
-            <a
-              href="#about"
-              class="text-gray-600 hover:text-gray-900 text-lg rounded-md px-3 py-2 font-medium"
-              >About me</a
-            >
-          </li>
-          <li class="block mt-4 lg:inline-block lg:mt-0">
-            <a
-              href="#skill"
-              class="text-gray-600 hover:text-gray-900 text-lg rounded-md px-3 py-2 font-medium"
-              >Skill framework</a
-            >
-          </li>
-          <li class="block mt-4 lg:inline-block lg:mt-0">
-            <a
-              href="#recent"
-              class="text-gray-600 hover:text-gray-900 text-lg rounded-md px-3 py-2 font-medium"
-              >Recent work</a
-            >
-          </li>
-          <li class="block mt-4 lg:inline-block lg:mt-0">
-            <a
-              href="#contact"
-              class="text-gray-600 hover:text-gray-900 text-lg rounded-md px-3 py-2 font-medium"
-              >Contact me</a
-            >
-          </li>
-        </ul>
-        <div class="inline-block px-4 py-2 mt-4 lg:mt-0">
-          <button
-            class="justify-self-end inline-block text-sm px-4 py-2 rounded text-gray-600 border border-gray-600 hover:border-transparent hover:text-white hover:bg-indigo-700 mt-4 lg:mt-0"
-          >
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Web Portofolio Tailwind CSS" />
+  <meta name="keyword" content="tailwindcss, CSS, tailwind" />
+  <meta name="author" content="Thomas Eka Swastika Putra Tibo" />
+  <title>Web Portofolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <nav class="w-screen p-2 justify-between">
+    <section class="flex flex-wrap">
+      <div class="text-2xl flex-1 justify-start ml-3 lg:mx-12 py-2 font-bold text-blue-900">
+        <!-- <div class="flex flex-shrink-0 mr-6">
+              <img src="img/logo.png" class="h-10 w-50 mr-2" />
+          </div> //solusi jika menggunakan logo pada bagian ini-->
+        <a href="#">Tomm</a>
+      </div>
+      <div class="flex items-center lg:hidden">
+        <a
+          class="flex items-center px-4 py-2 rounded border border-indigo-400 text-indigo-500 hover:text-indigo-700 hover:border-indigo-700">
+          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <title>Menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+          </svg>
+        </a>
+      </div>
+      <ul class="block items-center w-full flex-grow lg:flex lg:items-center lg:w-auto">
+        <li class="block mt-4 lg:inline-block lg:mt-0">
+          <a href="#about" class="text-gray-600 hover:text-gray-900 text-lg rounded-md px-3 py-2 font-medium">
+            About me
+          </a>
+        </li>
+        <li class="block mt-4 lg:inline-block lg:mt-0">
+          <a href="#skill" class="text-gray-600 hover:text-gray-900 text-lg rounded-md px-3 py-2 font-medium">
+            Skill framework
+          </a>
+        </li>
+        <li class="block mt-4 lg:inline-block lg:mt-0">
+          <a href="#recent" class="text-gray-600 hover:text-gray-900 text-lg rounded-md px-3 py-2 font-medium">
+            Recent work
+          </a>
+        </li>
+        <li class="block mt-4 lg:inline-block lg:mt-0">
+          <a href="#contact" class="text-gray-600 hover:text-gray-900 text-lg rounded-md px-3 py-2 font-medium">
             Contact me
-          </button>
-        </div>
-      </section>
-    </nav>
-    <section
-      class="w-screen mx-auto py-6 h-80 bg-gradient-to-bl from-orange-50 from-10% via-blue-100 via-50% to-orange-50 to-100% text-slate-700"
-    >
-      About Me
+          </a>
+        </li>
+      </ul>
+      <div class="inline-block px-2 lg:py-2 lg:mt-0">
+        <button
+          class="justify-self-end inline-block text-sm px-4 py-2 rounded text-gray-600 border border-gray-600 hover:border-transparent hover:text-white hover:bg-indigo-700 mt-4 lg:mt-0">
+          Contact me
+        </button>
+      </div>
     </section>
-    <section class="w-screen mx-auto py-4 bg-white h-32">
-      Skill Framework
-    </section>
-    <section class="w-screen mx-auto py-4 bg-gray-300 h-32">
-      Recent Work
-    </section>
-    <section class="w-screen mx-auto py-4 bg-indigo-700 h-32">
-      Contact Me
-    </section>
-    <footer class="w-screen mx-auto py-4 bg-white h-32">Footer</footer>
-  </body>
+  </nav>
+  <section id="about"
+    class="w-screen mx-auto py-6 h-80 bg-gradient-to-bl from-orange-50 from-10% via-blue-100 via-50% to-orange-50 to-100% text-slate-700">
+    About Me
+  </section>
+  <section id="skill" class="w-screen mx-auto py-4 bg-white h-32">
+    Skill
+  </section>
+  <section id="recent" class="w-screen mx-auto py-4 bg-gray-300 h-32">
+    Recent Work
+  </section>
+  <section id="contact" class="w-screen mx-auto py-4 bg-indigo-700 h-32">
+    Contact Me
+  </section>
+  <footer class="w-screen mx-auto py-4 bg-white h-32">Footer</footer>
+</body>
+
 </html>
